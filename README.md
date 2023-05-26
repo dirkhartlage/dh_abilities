@@ -23,11 +23,12 @@ Current samples:
   - Provides a minimal implementation of how this package can be used.
 - Example Setup with InputSystem
   - Same as above, but using InputSystem, in case you have disabled the vanilla inputs in favor of InputSystem.
+- Sample for UI using UGUI
+  - Displays all abilities and cooldowns and all resource pools of the local player
 
 ## Roadmap:
 Soon(tm) (in order):
-- Sample for UI using UGUI
-  - Displays all abilities and cooldowns and all resource pools of the local player
+
 - Global cooldowns/manually locking/unlocking ability usage
   - Fixes the following problem: You don't want multiple abilities to be used at once.
     - Abilities will define either a preset global cooldown that is then being applied on the AbilitySystemComponent of the local player, or for a custom, dynamic approach: just lock all ability usage alltogether until it is unlocked again.
