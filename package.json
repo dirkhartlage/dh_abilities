@@ -1,0 +1,38 @@
+{
+  "name": "com.dh.dh_abilities",
+  "version": "1.0.0",
+  "displayName": "DH abilities system",
+  "description": "This system provides a framework and some samples to implement abilities. Check Github for feature list.",
+  "unity": "2019.4",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "keywords": [
+    "ability",
+    "abilities",
+    "skill",
+    "skills"
+  ],
+  "samples": [
+    {
+      "displayName": "Minimal Setup (Legacy Input)",
+      "description": "Implements a super simple example that triggers an ability, that writes to the console when pressing the \"1\"-button on the keyboard. Note: it requires the InputSystem, but you can also just delete the input and wire up a AbilitySystemComponent.TryUseAbility(0) call yourself.",
+      "path": "Samples~/ExampleSetup"
+    },
+    {
+      "displayName": "Minimal Setup (Input System)",
+      "description": "Same as Example Setup. But for if you disabled the vanilla inputs and use Input System instead.",
+      "path": "Samples~/ExampleSetupInputSystem"
+    },
+    {
+      "displayName": "Example With UI",
+      "description": "More complex example setup with UI elements.",
+      "path": "Samples~/ExampleWithUI"
+    }
+  ],
+  "author": {
+    "name": "Dirk Hartlage",
+    "email": "dirkhartlage1@gmail.com",
+    "url": "https://dirkhartlage.com"
+  }
+}

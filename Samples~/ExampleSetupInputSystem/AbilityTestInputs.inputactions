@@ -1,0 +1,54 @@
+{
+    "name": "AbilityTestInputs",
+    "maps": [
+        {
+            "name": "AbilityTestActionMap",
+            "id": "056a75e5-318c-48fa-a9d7-5b8604b55384",
+            "actions": [
+                {
+                    "name": "Ability1",
+                    "type": "Button",
+                    "id": "41b2887c-0dc4-407a-8e4a-5109c5f5aa0a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Ability2",
+                    "type": "Button",
+                    "id": "0d6286bd-b15a-417e-8fc9-04e7fa6c2c9f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ad0c3da8-228d-44c7-a88f-efdb6c1137d7",
+                    "path": "<Keyboard>/1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Ability1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "841fa118-cacf-424d-8731-dadf15798d17",
+                    "path": "<Keyboard>/2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Ability2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
